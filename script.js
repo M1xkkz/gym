@@ -2,20 +2,21 @@
 const scheduleData = [
     {
         day: "วันจันทร์",
+        title: "หลัง",
+
+        exercises: [
+            { name: "Lat Pulldown", detail: "4 เซต x 10–12 ครั้ง", focus: "หลังปีก", videoId: "5s6KGLTMgoI" },
+            { name: "Straight-Arm Pulldown", detail: "3 เซต x 12 ครั้ง", focus: "หลังล่าง / ปีก", videoId: "lnec6DdscJU" },
+            { name: "Dumbbell Row", detail: "3 เซต x 10 ครั้ง/ข้าง", focus: "หลังกลาง", videoId: "yHqqGd0tXcw" }
+        ]
+    },
+    {
+        day: "วันอังคาร",
         title: "อก",
         exercises: [
             { name: "Chest Press", detail: "4 เซต x 12 ครั้ง", focus: "หน้าอก", videoId: "QoK0kbtKWH0" }, // ตัวอย่าง ID ยูทูป
             { name: "Pec Deck / Fly", detail: "4 เซต x 10–12 ครั้ง", focus: "กลางอก", videoId: "a9vQ_hwIksU" },
             { name: "Dumbbell Press", detail: "3 เซต x 10 ครั้ง", focus: "อก", videoId: "WbCEvFA0NJs" }
-        ]
-    },
-    {
-        day: "วันอังคาร",
-        title: "หลัง",
-        exercises: [
-            { name: "Lat Pulldown", detail: "4 เซต x 10–12 ครั้ง", focus: "หลังปีก", videoId: "5s6KGLTMgoI" },
-            { name: "Straight-Arm Pulldown", detail: "3 เซต x 12 ครั้ง", focus: "หลังล่าง / ปีก", videoId: "lnec6DdscJU" },
-            { name: "Dumbbell Row", detail: "3 เซต x 10 ครั้ง/ข้าง", focus: "หลังกลาง", videoId: "yHqqGd0tXcw" }
         ]
     },
     {
